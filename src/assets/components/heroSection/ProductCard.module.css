@@ -204,15 +204,16 @@
     .nav {
         .burger {
             min-width: 30px !important;
-            margin-left: -30px;
+            /* margin-left: -30px; */
         }
 
         .buttons {
-            margin-left: -30px !important;
+            /* margin-left: -30px !important; */
             margin-top: 22px !important;
+            justify-content: center !important;
 
             button {
-                width: 100%;
+                min-width: 40%;
                 padding: 1px;
             }
         }
@@ -227,20 +228,23 @@
 
 @media screen and (max-width: 330px) {
     .nav {
+        gap: 10px;
+
         .burger {
             min-width: 30px !important;
-            margin-left: -45px !important;
         }
 
         .buttons {
             margin-top: 22px !important;
 
             .btn1 {
-                width: 40% !important;
+                width: 100% !important;
+                font-size: 10px;
             }
 
             .btn2 {
-                width: 40% !important;
+                width: 100% !important;
+                font-size: 10px;
             }
         }
     }

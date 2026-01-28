@@ -1,0 +1,80 @@
+.footer {
+    background-color: rgba(59, 47, 74, 1);
+    display: grid;
+    color: aliceblue;
+    padding: 100px;
+
+    .top,
+    .bottom {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        .svgs {
+            text-align: end;
+            display: flex;
+            gap: 10px;
+            justify-content: end;
+        }
+    }
+
+    .underline {
+        border-bottom: 3px solid rgba(255, 255, 255, 0.2);
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .nav {
+        display: flex;
+        gap: 30px;
+
+        .bookshop {
+            display: flex;
+        }
+    }
+}
+
+/* media query */
+@media screen and (min-width: 320px) {
+    .footer {
+        padding: 20px;
+
+        .nav {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 10px;
+        }
+
+        .top,
+        .bottom {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+        }
+
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .footer {
+        padding: 30px;
+    }
+
+    .top,
+    .bottom {
+        display: grid !important;
+        grid-template-columns: 1fr .1fr !important;
+    }
+
+    .nav {
+        display: flex !important;
+        gap: 30px !important;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .footer {
+        padding: 50px;
+    }
+}
