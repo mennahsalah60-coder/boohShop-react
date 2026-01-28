@@ -1,0 +1,10 @@
+.feature {
+    max-width: 85%;
+    min-height: 50%;
+
+    h3 {
+        margin-top: 10px;
+        margin-bottom: 1px;
+    }
+}
+
