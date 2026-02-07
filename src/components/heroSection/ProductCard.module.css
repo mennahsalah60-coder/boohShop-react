@@ -122,12 +122,11 @@
         min-height: 12% !important;
     }
 
-    .nav {
+    .container .nav {
         max-width: 600px !important;
         margin-inline: auto !important;
 
         .home {
-
             .none,
             .warm {
                 display: none;
@@ -137,6 +136,10 @@
                 display: block !important;
                 width: 20%;
                 margin-top: -6px;
+            }
+
+            .close{
+                display: block;
             }
         }
 

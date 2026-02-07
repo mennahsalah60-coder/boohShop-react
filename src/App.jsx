@@ -1,23 +1,22 @@
 import './App.css'
-import ProductCard from './assets/components/heroSection/ProductCard'
-import OurFeatures from './assets/components/OurFeatures/features.jsx'
-import RecommendedProducts from './assets/components/RecommendedProducts/RecommendedProducts.jsx'
-import Footer from './assets/components/footer/footer.jsx'
+import ProductCard from './components/heroSection/ProductCard'
+import OurFeatures from './components/OurFeatures/features.jsx'
+import RecommendedProducts from './components/RecommendedProducts/RecommendedProducts.jsx'
+import Footer from './components/footer/footer.jsx'
 
-import book1 from './assets/components/RecommendedProducts/images/book1.png'
-import book2 from './assets/components/RecommendedProducts/images/book2.png'
-import rate from './assets/components/RecommendedProducts/images/Frame 1000004764.png'
-import shipp from './assets/components/OurFeatures/images/shipping-fast 1.png'
-import creditCard from './assets/components/OurFeatures/images/credit-card-buyer 1.png'
-import restock from './assets/components/OurFeatures/images/restock 1.png'
-import user from './assets/components/OurFeatures/images/user-headset 1.png'
+import book1 from './components/RecommendedProducts/images/book1.png'
+import book2 from './components/RecommendedProducts/images/book2.png'
+import rate from './components/RecommendedProducts/images/Frame 1000004764.png'
+import shipp from './components/OurFeatures/images/shipping-fast 1.png'
+import creditCard from './components/OurFeatures/images/credit-card-buyer 1.png'
+import restock from './components/OurFeatures/images/restock 1.png'
+import user from './components/OurFeatures/images/user-headset 1.png'
 
 function App() {
 
   return (
     <>
       <ProductCard title="ProductCard" />
-
       <div className='features'>
         <div className="feature">
           <OurFeatures image={shipp} title="Fast & Reliable Shipping" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et ultricies est. Aliquam in justo varius, sagittis neque ut, malesuada leo." />

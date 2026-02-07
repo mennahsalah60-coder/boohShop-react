@@ -2,7 +2,6 @@
   "name": "bookshop_project",
   "private": true,
   "homepage": "https://username.github.io/repo-name",
-  "base": "/repo-name/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
